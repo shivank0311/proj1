@@ -19,5 +19,6 @@ from stech import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("about-us/", views.aboutus)
+    path('', views.homepage),
+    path("my-Profile/", views.myProfile)
 ]
